@@ -6,7 +6,7 @@ const Category = () => {
     <div>
       <h1>Category</h1>
 
-      <ul>
+      <ul style={{ display: "inline-block", textAlign: "left" }}>
         <li>
           <Link to="/category/beef">Beef</Link>
         </li>
