@@ -15,7 +15,6 @@ const Detail = () => {
     fetchData();
   }, [])
 
-
   return (
     <div>
       <h1 className="categoryName">{categoryName}</h1>
